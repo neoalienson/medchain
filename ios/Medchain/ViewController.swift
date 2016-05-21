@@ -9,15 +9,26 @@
 import UIKit
 import ZXingObjC
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ZXCaptureDelegate {
 
     let capture = ZXCapture()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.capture.focusMode = .AutoFocus
+        self.capture.camera = self.capture.back()
+        self.capture.layer.frame = self.view.bounds
         self.view.layer.addSublayer(capture.layer)
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.capture.delegate = self
+    }
+    
+    func captureResult(capture: ZXCapture!, result: ZXResult!) {
+        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+        self.capture.stop()
+    }
 }
 
