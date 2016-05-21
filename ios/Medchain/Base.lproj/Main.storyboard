@@ -50,7 +50,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="AuE-A0-Q48" kind="show" id="NCu-w2-vEk"/>
+                        <segue destination="AuE-A0-Q48" kind="show" identifier="checkClinic" id="NCu-w2-vEk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -23,9 +23,15 @@ class ViewController: UIViewController, ZXCaptureDelegate {
     }
     
     func captureResult(capture: ZXCapture!, result: ZXResult!) {
+        if (result == nil) {
+            return
+        }
+        
         AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
         self.capture.stop()
         self.capture.layer.removeFromSuperlayer()
+        
+        performSegueWithIdentifier("checkClinic", sender: nil)
     }
     
     @IBAction func scan() {
