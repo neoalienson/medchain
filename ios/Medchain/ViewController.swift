@@ -15,10 +15,6 @@ class ViewController: UIViewController, ZXCaptureDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.capture.focusMode = .AutoFocus
-        self.capture.camera = self.capture.back()
-        self.capture.layer.frame = self.view.bounds
-        self.view.layer.addSublayer(capture.layer)
     }
 
     override func viewWillAppear(animated: Bool) {
@@ -29,6 +25,14 @@ class ViewController: UIViewController, ZXCaptureDelegate {
     func captureResult(capture: ZXCapture!, result: ZXResult!) {
         AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
         self.capture.stop()
+        self.capture.layer.removeFromSuperlayer()
+    }
+    
+    @IBAction func scan() {
+        self.capture.focusMode = .AutoFocus
+        self.capture.camera = self.capture.back()
+        self.capture.layer.frame = self.view.bounds
+        self.view.layer.addSublayer(capture.layer)
     }
 }
 
