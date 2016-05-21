@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055A17621DD8A7312B797BEB /* Pods_Medchain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C221841CAF97874C0E0DA88 /* Pods_Medchain.framework */; };
 		B592767D1CF06EFE002D4288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B592767C1CF06EFE002D4288 /* AppDelegate.swift */; };
 		B592767F1CF06EFF002D4288 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B592767E1CF06EFE002D4288 /* FirstViewController.swift */; };
 		B59276811CF06EFF002D4288 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59276801CF06EFF002D4288 /* SecondViewController.swift */; };
 		B59276841CF06EFF002D4288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59276821CF06EFF002D4288 /* Main.storyboard */; };
 		B59276861CF06EFF002D4288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59276851CF06EFF002D4288 /* Assets.xcassets */; };
 		B59276891CF06EFF002D4288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59276871CF06EFF002D4288 /* LaunchScreen.storyboard */; };
+		B59276911CF06F1F002D4288 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B59276901CF06F1F002D4288 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C221841CAF97874C0E0DA88 /* Pods_Medchain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medchain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B4EC32975A8C09E572176C /* Pods-Medchain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medchain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Medchain/Pods-Medchain.debug.xcconfig"; sourceTree = "<group>"; };
 		B59276791CF06EFE002D4288 /* Medchain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medchain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B592767C1CF06EFE002D4288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B592767E1CF06EFE002D4288 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		B59276851CF06EFF002D4288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B59276881CF06EFF002D4288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B592768A1CF06EFF002D4288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59276901CF06F1F002D4288 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B9D9EE01093D3DA523E06EEA /* Pods-Medchain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medchain.release.xcconfig"; path = "Pods/Target Support Files/Pods-Medchain/Pods-Medchain.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055A17621DD8A7312B797BEB /* Pods_Medchain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E2A35C5FB5366DD98F66EAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3B4EC32975A8C09E572176C /* Pods-Medchain.debug.xcconfig */,
+				B9D9EE01093D3DA523E06EEA /* Pods-Medchain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B59276701CF06EFE002D4288 = {
 			isa = PBXGroup;
 			children = (
 				B592767B1CF06EFE002D4288 /* Medchain */,
 				B592767A1CF06EFE002D4288 /* Products */,
+				4E2A35C5FB5366DD98F66EAF /* Pods */,
+				CABC7C34CDF73E40C212DB8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +76,7 @@
 			children = (
 				B592767C1CF06EFE002D4288 /* AppDelegate.swift */,
 				B592767E1CF06EFE002D4288 /* FirstViewController.swift */,
+				B59276901CF06F1F002D4288 /* GoogleService-Info.plist */,
 				B59276801CF06EFF002D4288 /* SecondViewController.swift */,
 				B59276821CF06EFF002D4288 /* Main.storyboard */,
 				B59276851CF06EFF002D4288 /* Assets.xcassets */,
@@ -67,6 +86,14 @@
 			path = Medchain;
 			sourceTree = "<group>";
 		};
+		CABC7C34CDF73E40C212DB8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C221841CAF97874C0E0DA88 /* Pods_Medchain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B592768D1CF06EFF002D4288 /* Build configuration list for PBXNativeTarget "Medchain" */;
 			buildPhases = (
+				C8BC58683DE95B306BFAB166 /* 📦 Check Pods Manifest.lock */,
 				B59276751CF06EFE002D4288 /* Sources */,
 				B59276761CF06EFE002D4288 /* Frameworks */,
 				B59276771CF06EFE002D4288 /* Resources */,
+				1349DF70B573D02756C1343C /* 📦 Embed Pods Frameworks */,
+				01012CFDC20789F5F383884D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59276891CF06EFF002D4288 /* LaunchScreen.storyboard in Resources */,
+				B59276911CF06F1F002D4288 /* GoogleService-Info.plist in Resources */,
 				B59276861CF06EFF002D4288 /* Assets.xcassets in Resources */,
 				B59276841CF06EFF002D4288 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01012CFDC20789F5F383884D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Medchain/Pods-Medchain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1349DF70B573D02756C1343C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Medchain/Pods-Medchain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8BC58683DE95B306BFAB166 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B59276751CF06EFE002D4288 /* Sources */ = {
@@ -251,6 +330,7 @@
 		};
 		B592768E1CF06EFF002D4288 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B4EC32975A8C09E572176C /* Pods-Medchain.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Medchain/Info.plist;
@@ -262,6 +342,7 @@
 		};
 		B592768F1CF06EFF002D4288 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D9EE01093D3DA523E06EEA /* Pods-Medchain.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Medchain/Info.plist;
@@ -290,6 +371,7 @@
 				B592768F1CF06EFF002D4288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
