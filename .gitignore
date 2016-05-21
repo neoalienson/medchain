@@ -64,3 +64,5 @@ fastlane/screenshots
 
 Pods
 *~
+
+*.lock
