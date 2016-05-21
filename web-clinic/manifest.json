@@ -1,0 +1,7 @@
+{
+  "name": "Medchain Clinic",
+  "short_name": "Medchain Clinic",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}

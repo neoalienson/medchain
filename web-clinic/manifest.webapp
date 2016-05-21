@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "name": "Medchain Clinc",
+  "launch_path": "/index.html",
+  "description": "Medchain user interface for clinic",
+  "developer": {
+    "name": "Neo",
+    "url": "https://neo.works"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  }
+}
