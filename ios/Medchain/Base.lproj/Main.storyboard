@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="305"/>
+            <point key="canvasLocation" x="-61" y="473"/>
         </scene>
         <!--Clinic View Controller-->
         <scene sceneID="MCQ-3M-YBe">
@@ -81,7 +81,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwe-e0-4cU">
-                                <rect key="frame" x="132" y="568" width="151" height="59"/>
+                                <rect key="frame" x="132" y="533" width="151" height="59"/>
                                 <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <state key="normal" title="Book">
@@ -116,17 +116,28 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Next avaliable booking slot" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4j-QY-C55">
-                                <rect key="frame" x="58" y="446" width="299" height="52"/>
+                                <rect key="frame" x="58" y="436" width="299" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="May 23 (Sun) 5:00pm" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuW-cY-mct">
-                                <rect key="frame" x="58" y="497" width="299" height="52"/>
+                                <rect key="frame" x="58" y="474" width="299" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmN-L3-kTc">
+                                <rect key="frame" x="132" y="647" width="151" height="59"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="6Xb-IM-X7j"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.60252672699999998" green="0.75709966650000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -134,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mls-UE-hGi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="844" y="305"/>
+            <point key="canvasLocation" x="1068" y="225"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="n2Q-tl-a8b">
@@ -210,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DDX-Py-pv4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1542" y="305"/>
+            <point key="canvasLocation" x="1594" y="-671"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ei5-O0-XCe">
@@ -294,13 +305,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jpL-wM-5rs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1574" y="1271"/>
+            <point key="canvasLocation" x="526" y="1307"/>
         </scene>
     </scenes>
     <resources>
         <image name="QRCodeClinic" width="366" height="355"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aLz-gB-4BX"/>
+        <segue reference="NCu-w2-vEk"/>
     </inferredMetricsTieBreakers>
 </document>
