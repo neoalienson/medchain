@@ -12,6 +12,7 @@ import ZXingObjC
 class ViewController: UIViewController, ZXCaptureDelegate {
 
     let capture = ZXCapture()
+    var hasResult = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,9 +24,11 @@ class ViewController: UIViewController, ZXCaptureDelegate {
     }
     
     func captureResult(capture: ZXCapture!, result: ZXResult!) {
-        if (result == nil) {
+        if (result == nil || hasResult) {
             return
         }
+        
+        hasResult = true
         
         AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
         self.capture.stop()

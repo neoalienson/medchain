@@ -7,6 +7,8 @@ target 'Medchain' do
 
   # Pods for Medchain
   pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   pod 'ZXingObjC'
 
 end

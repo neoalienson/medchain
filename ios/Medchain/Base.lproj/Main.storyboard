@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="305" y="305"/>
         </scene>
-        <!--View Controller-->
+        <!--Clinic View Controller-->
         <scene sceneID="MCQ-3M-YBe">
             <objects>
-                <viewController id="AuE-A0-Q48" sceneMemberID="viewController">
+                <viewController id="AuE-A0-Q48" customClass="ClinicViewController" customModule="Medchain" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7vP-ZI-v3U"/>
                         <viewControllerLayoutGuide type="bottom" id="Ksq-eG-OBr"/>

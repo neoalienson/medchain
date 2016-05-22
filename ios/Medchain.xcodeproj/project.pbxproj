@@ -14,6 +14,7 @@
 		B5428F191CF0D24A00DF903F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5428F181CF0D24A00DF903F /* Assets.xcassets */; };
 		B5428F1C1CF0D24A00DF903F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5428F1A1CF0D24A00DF903F /* LaunchScreen.storyboard */; };
 		B5428F241CF0D25800DF903F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5428F231CF0D25800DF903F /* GoogleService-Info.plist */; };
+		B593C9011CF12875001C5491 /* ClinicViewControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B593C9001CF12875001C5491 /* ClinicViewControll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B5428F1B1CF0D24A00DF903F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5428F1D1CF0D24A00DF903F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5428F231CF0D25800DF903F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B593C9001CF12875001C5491 /* ClinicViewControll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicViewControll.swift; sourceTree = "<group>"; };
 		F269D74E66D361B413E20C41 /* Pods-Medchain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medchain.release.xcconfig"; path = "Pods/Target Support Files/Pods-Medchain/Pods-Medchain.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				B5428F181CF0D24A00DF903F /* Assets.xcassets */,
 				B5428F1A1CF0D24A00DF903F /* LaunchScreen.storyboard */,
 				B5428F1D1CF0D24A00DF903F /* Info.plist */,
+				B593C9001CF12875001C5491 /* ClinicViewControll.swift */,
 			);
 			path = Medchain;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5428F141CF0D24A00DF903F /* ViewController.swift in Sources */,
+				B593C9011CF12875001C5491 /* ClinicViewControll.swift in Sources */,
 				B5428F121CF0D24A00DF903F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
