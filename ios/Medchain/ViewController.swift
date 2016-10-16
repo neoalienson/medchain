@@ -18,12 +18,12 @@ class ViewController: UIViewController, ZXCaptureDelegate {
         super.viewDidLoad()
     }
 
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.capture.delegate = self
     }
     
-    func captureResult(capture: ZXCapture!, result: ZXResult!) {
+    func captureResult(_ capture: ZXCapture!, result: ZXResult!) {
         if (result == nil || hasResult) {
             return
         }
@@ -34,7 +34,7 @@ class ViewController: UIViewController, ZXCaptureDelegate {
         self.capture.stop()
         self.capture.layer.removeFromSuperlayer()
         
-        performSegueWithIdentifier("checkClinic", sender: nil)
+        performSegue(withIdentifier: "checkClinic", sender: nil)
     }
     
     @IBAction func scan() {
